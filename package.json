@@ -1,0 +1,19 @@
+{
+  "name": "weather-journal-app",
+  "version": "1.0.0",
+  "description": "## Overview The project is about a __*Weathering App*__ . It works on using the API form OpenWeatherMap.org to get the temperetaure and the date for the present day. The temperature is aquired through the Zip code of the city. Simply it goes to that zip code and get the temperature data, assign it in our local server and then update the UI with it for the client to see on __clicking__ the Generate button.",
+  "main": "server.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
