@@ -1,0 +1,162 @@
+/* giving the website a suitable image for the background with flexible sizing */
+html {
+    background: url(aewallpaper_xyz.jpg) no-repeat center center fixed; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+body{
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+}
+/* styling the content in the app and adjusting them */
+#app{ 
+    align-items: center;
+    display: flex; /*Display is flex for a good format and easy adjustments */
+    flex-direction: column;
+    margin: auto;
+    height:100vh;
+    color: #131312;
+    justify-content: center;
+    grid-gap: 1em;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.holder{
+
+}
+
+/* styling the Recent entery block */
+.entry{
+    background: rgba(59, 74, 107, .4);
+    width: 30%;
+    height: auto;
+    text-align: center;
+    color: white;
+}
+
+#entryHolder{
+
+}
+
+#date{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#temp{
+    font-family: 'Oswald', sans-serif;
+
+}
+
+#content{
+    font-family: 'Oswald', sans-serif;
+}
+
+.headline {
+
+}
+.title{
+
+}
+
+/*  Basic Styling To Override Default For Basic HTML Elements */
+input{
+    display:block;
+    height: 60px;
+    width: 360px;
+    border-radius: 10vh;
+    background:#c0e7f1bb;
+    color: #ffffff;
+    font-size: 27px;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    border: none;
+    text-shadow: rgb(30, 29, 43) -2px 5px 5px;
+}
+/* CSS styling for the Generate button */
+.buttons {
+    margin: 10%;
+    text-align: center;
+}
+/* animation on hover */
+.btn-hover {
+    width: 200px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    cursor: pointer;
+    margin: 20px;
+    height: 55px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    -moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color {
+    background-image: linear-gradient(to right, #0ba360, #3cba92, #30dd8a, #2bb673);
+    box-shadow: 0 4px 15px 0 rgba(23, 168, 108, 0.75);
+}
+/* adding some shadow to the header and styling it */
+h1 {
+    color:rgb(230, 230, 255);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    font-size: 50px;
+    text-shadow: rgb(30, 29, 43) -5px 9px 5px;
+}
+/* Styling the feelings area */
+textarea{
+    background:rgba(156, 183, 190, 0.7);
+    color: #ffffff;
+    text-align:center;
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    border:none;
+    border-radius: 5vh;
+    text-shadow: rgb(30, 29, 43) -2px 5px 5px;
+}
+/* Reset style for HTML element on active to have no border*/
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+    outline: none;
+}
+/* Style for Placeholder Text*/
+::placeholder { /* Firefox, Chrome, Opera */ 
+    color: #ffffff; 
+    font-family: 'Oswald', sans-serif;
+}
+  
+:-ms-input-placeholder { /* Internet Explorer 10-11 */ 
+    color: #ffffff; 
+    font-family: 'Oswald', sans-serif;
+
+} 
+  
+::-ms-input-placeholder { /* Microsoft Edge */ 
+    color: #ffffff; 
+    font-family: 'Oswald', sans-serif;
+
+} 
