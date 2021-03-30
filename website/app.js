@@ -43,7 +43,7 @@ document.getElementById('generate').addEventListener('click', performAction);
 function performAction(e) {
     const zipCode = document.getElementById('zip').value; // get the zip input from the user
     const content = document.getElementById('feelings').value; // get the feelings content given by the user
-    if (zipCode.toString().length <= 5) {
+    if (zipCode.toString().length == 5) {
         console.log(zipCode);
     } else {
         alert("Please, check if you typed the correct zip code!")
