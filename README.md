@@ -11,3 +11,5 @@ The temperature is aquired through the Zip code of the city. Simply it goes to t
 3. Click on the 'Generate' button
 4. Check the 'Most Recent Entry' for the day weather data and how you feel beside it.
 5. Enjoy reviewing my first app from 'Almost' scratch :').
+
+![Alt Screenshot for my project](Weathering-Journal-App.png "Weathering Journal app")
